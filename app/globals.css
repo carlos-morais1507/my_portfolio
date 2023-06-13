@@ -23,7 +23,11 @@
 }
 
 .slide-full {
-    animation: move-rtl 15s linear infinite;
+  animation: move-rtl 15s linear infinite;
+}
+
+.slide-full-rev {
+  animation: move-ltr 15s linear infinite;
 }
 
 @keyframes move-rtl {
