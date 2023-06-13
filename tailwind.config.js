@@ -40,6 +40,14 @@ module.exports = {
       text: '16px',
       btn: '14px',
       titles: '128px',
+    },
+    extend: {
+      animation: {
+        'spin-slow' : 'spin 10s linear infinite',
+      },
+      backgroundImage: {
+        'carlos-photo' : "url('https://avatars.githubusercontent.com/u/105527392?v=4')"
+      }
     }
   },
   plugins: [],
