@@ -22,6 +22,10 @@
   animation: move-ltr 5s linear infinite;
 }
 
+.slide-full {
+    animation: move-rtl 15s linear infinite;
+}
+
 @keyframes move-rtl {
   0% {
     transform: translateX(0);
