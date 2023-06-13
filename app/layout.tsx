@@ -1,3 +1,4 @@
+import { Header } from '@/components'
 import './globals.css'
 import { Roboto_Mono, Roboto_Slab } from 'next/font/google'
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={text.className}>{children}</body>
+      <body className={text.className}>
+        <Header />
+        {children}
+        </body>
     </html>
   )
 }
