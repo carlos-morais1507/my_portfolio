@@ -17,7 +17,7 @@ const Header = () => {
             About me
           </button>
           <button 
-          className='h-[65px] border-l-2 border-violet12 px-6 
+          className='h-[65px] border-l-2 border-violet12 px-6 +
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
             My skills
@@ -38,22 +38,22 @@ const Header = () => {
       </div>
       <div className='h-full w-full flex md:hidden justify-between items-center'>
         <button className='h-full w-full flex justify-center items-center px-5
-        hover:bg-violet9'>
+        hover:bg-violet4'>
           <Image src="/icons/home.svg" alt='home' width={45} height={45}/>
         </button>
 
         <button className='h-full w-full flex justify-center items-center border-l-2 border-violet-12 px-5
-        hover:bg-violet9'>
+        hover:bg-violet4'>
           <Image src="/icons/about.svg" alt='about' width={45} height={45}/>
         </button>
 
         <button className='h-full w-full flex justify-center items-center border-l-2 border-violet-12 px-5
-        hover:bg-violet9'>
+        hover:bg-violet4'>
           <Image src="/icons/projects.svg" alt='projects' width={45} height={45}/>
         </button>
 
         <button className='h-full w-full flex justify-center items-center border-l-2 border-violet-12 px-5
-        hover:bg-violet9'>
+        hover:bg-violet4'>
           <Image src="/icons/contact.svg" alt='contact' width={45} height={45}/>
         </button>
       </div>
