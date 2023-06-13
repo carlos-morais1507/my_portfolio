@@ -17,7 +17,7 @@ const Header = () => {
             About me
           </button>
           <button 
-          className='h-[65px] border-l-2 border-violet12 px-6 +
+          className='h-[65px] border-l-2 border-violet12 px-6
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
             My skills
