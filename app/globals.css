@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide-w {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.slide-t {
+  white-space: nowrap;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+
+.slide-nor {
+  animation: move-rtl 5s linear infinite;
+}
+
+.slide-rev {
+  animation: move-ltr 5s linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes move-ltr {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
