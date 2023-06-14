@@ -5,15 +5,13 @@ import "../app/globals.css"
 import Link from 'next/link';
 
 const Hero = () => {
-  const [hidden, sethidden] = useState(true)
+  const [hidden, sethidden] = useState(false)
   const showmenu = () => {
     var lang__btn = document.querySelector(".lang__btn");
     if (hidden) {
-      lang__btn?.classList.remove("hidden");
-      lang__btn?.classList.add("flex");
+      lang__btn?.classList.remove("ml-[250px]");
     } else {
-      lang__btn?.classList.add("hidden");
-      lang__btn?.classList.remove("flex");
+      lang__btn?.classList.add("ml-[250px]");
     }
     sethidden(!hidden);
     console.log(hidden)
@@ -29,9 +27,9 @@ const Hero = () => {
             <h2 className='text-h4'>and I am the</h2>
             <h2 className='text-h3 text-violet11'>web developer you need.</h2>
             <div className='flex gap-3 items-end justify-center'>
-              <button id='lang__menu' onClick={showmenu} className='text-btn font-medium p-2.5 mt-2.5 border-2 border-violet12 rounded-lg
+              <button id='lang__menu' onClick={showmenu} className='relative z-10 bg-violet1 text-btn font-medium p-2.5 mt-2.5 border-2 border-violet12 rounded-lg
             hover:bg-violet9 hover:text-violet1'>Download my CV</button>
-            <div className='hidden lang__btn gap-3'>
+            <div className='absolute z-0 flex lang__btn gap-3 transition-all'>
               <Link href="https://drive.google.com/file/d/1s5sRhVv7g-2tTAG0NrWXGO0pGgFktkfu/view?usp=drive_link" target='blank'>
                 <div className='bg-lang__pt hover:bg-lang__pt-hover w-[40px] h-[40px] transition-all duration-200' />
               </Link>
