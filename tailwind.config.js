@@ -46,7 +46,7 @@ module.exports = {
         'spin-slow' : 'spin 10s linear infinite',
       },
       backgroundImage: {
-        'carlos-photo' : "url('https://avatars.githubusercontent.com/u/105527392?v=4')"
+        'carlos-photo' : "url('/assets/CarlosPhoto.jpg')"
       }
     }
   },
