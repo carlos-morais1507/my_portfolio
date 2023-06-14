@@ -21,7 +21,7 @@ const About = () => {
 
         <div className='w-full h-full flex flex-col justify-between p-10'>
           <h2 className={`${title.className} text-h1 font-medium text-violet11`}>ABOUT ME</h2>
-          <p>
+          <p className=" text-justify">
             I am an talented and creative front-end developer with skills in HTML, CSS, JavaScript, React, Next, Tailwind, and Firebase. Currently, I am in my second year of a Bachelor's degree in Information Systems at PUCMG and enjoy writing in my free time. I am from Rio de Janeiro and always looking for new opportunities for learning and professional growth.
           </p>
         </div>
