@@ -1,5 +1,6 @@
 import React from 'react'
 import { Roboto_Slab } from "next/font/google"
+import SkillsList from './SkillsList'
 
 const title = Roboto_Slab({ subsets: ['latin'] })
 
@@ -12,8 +13,9 @@ const Skills = () => {
         <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>MY SKILLS • MY SKILLS • </h1>
         <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>MY SKILLS • MY SKILLS • </h1>
       </div>
-      <div className='w-full h-full md:h-[650px] border-b-2 border-violet12 flex flex-col md:flex-row overflow-hidden'>
+      <div className='w-full h-full md:h-[620px] border-b-2 border-violet12 flex flex-col md:flex-row overflow-hidden'>
         <div className='w-full min-w-[50%] min-h-[325px] h-full md:border-r-2 border-b-2 md:border-b-0 border-violet12'>
+          <SkillsList />
         </div>
         <div className='w-full h-full flex flex-col justify-between p-10'>
           <h2 className={`${title.className} text-h1 font-medium text-violet11`}>MY SKILLS</h2>
