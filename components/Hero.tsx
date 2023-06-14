@@ -1,8 +1,22 @@
-import Link from 'next/link'
-import React from 'react'
+"use client";
+
+import React, { useState } from 'react'
 import "../app/globals.css"
+import Link from 'next/link';
 
 const Hero = () => {
+  const [hidden, sethidden] = useState(true)
+  const showmenu = () => {
+    var lang__btn = document.querySelector(".lang__btn");
+    if (hidden) {
+      lang__btn?.classList.remove("hidden");
+    } else {
+      lang__btn?.classList.add("hidden");
+    }
+    sethidden(!hidden);
+    console.log(hidden)
+  }
+
   return (
     <div className="w-full flex flex-col">
       <div className='w-full md:h-[650px] h-full border-b-2 border-violet12 flex flex-col md:flex-row overflow-hidden'>
@@ -12,8 +26,18 @@ const Hero = () => {
             <h1 className='text-h1 font-bold text-violet11'>Carlos Morais,</h1>
             <h2 className='text-h4'>and I am the</h2>
             <h2 className='text-h3 text-violet11'>web developer you need.</h2>
-            <Link href="/" className='text-btn font-medium p-2.5 mt-2.5 border-2 border-violet12 rounded-lg
-            hover:bg-violet9 hover:text-violet1'>Download my CV</Link>
+            <div className='flex gap-3 items-end justify-center'>
+              <button id='lang__menu' onClick={showmenu} className='text-btn font-medium p-2.5 mt-2.5 border-2 border-violet12 rounded-lg
+            hover:bg-violet9 hover:text-violet1'>Download my CV</button>
+            <div className='hidden lang__btn flex gap-3'>
+              <Link href="https://drive.google.com/file/d/1s5sRhVv7g-2tTAG0NrWXGO0pGgFktkfu/view?usp=drive_link" target='blank'>
+                <div className='bg-lang__pt hover:bg-lang__pt-hover w-[40px] h-[40px] transition-all duration-200' />
+              </Link>
+              <Link href="https://drive.google.com/file/d/1ff449MvOkbpO92Tr3Z34ZYzbDYM7j3CN/view?usp=drive_link" target='blank'>
+                <div className='bg-lang__en hover:bg-lang__en-hover w-[40px] h-[40px] transition-all duration-200' />
+              </Link>
+            </div>
+            </div>
           </div>
         </div>
         <div className='w-full h-full flex flex-col text-h1 md:text-titles'>

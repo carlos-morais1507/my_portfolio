@@ -46,7 +46,11 @@ module.exports = {
         'spin-slow' : 'spin 10s linear infinite',
       },
       backgroundImage: {
-        'carlos-photo' : "url('/assets/CarlosPhoto.jpg')"
+        'carlos-photo' : "url('/assets/CarlosPhoto.jpg')",
+        'lang__pt' : "url('/icons/lang__pt.svg')",
+        'lang__pt-hover' : "url('/icons/lang__pt-hover.svg')",
+        'lang__en' : "url('/icons/lang__en.svg')",
+        'lang__en-hover' : "url('/icons/lang__en-hover.svg')",
       }
     }
   },
