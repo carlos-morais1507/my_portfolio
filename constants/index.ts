@@ -5,7 +5,7 @@ export const skillsList = [
   },
   {
     category: 1,
-    title: "CSS3",
+    title: "css",
   },
   {
     category: 1,
