@@ -10,8 +10,10 @@ const Hero = () => {
     var lang__btn = document.querySelector(".lang__btn");
     if (hidden) {
       lang__btn?.classList.remove("hidden");
+      lang__btn?.classList.add("flex");
     } else {
       lang__btn?.classList.add("hidden");
+      lang__btn?.classList.remove("flex");
     }
     sethidden(!hidden);
     console.log(hidden)
@@ -29,7 +31,7 @@ const Hero = () => {
             <div className='flex gap-3 items-end justify-center'>
               <button id='lang__menu' onClick={showmenu} className='text-btn font-medium p-2.5 mt-2.5 border-2 border-violet12 rounded-lg
             hover:bg-violet9 hover:text-violet1'>Download my CV</button>
-            <div className='hidden lang__btn flex gap-3'>
+            <div className='hidden lang__btn gap-3'>
               <Link href="https://drive.google.com/file/d/1s5sRhVv7g-2tTAG0NrWXGO0pGgFktkfu/view?usp=drive_link" target='blank'>
                 <div className='bg-lang__pt hover:bg-lang__pt-hover w-[40px] h-[40px] transition-all duration-200' />
               </Link>
