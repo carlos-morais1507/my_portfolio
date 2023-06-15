@@ -8,18 +8,18 @@ import { idText } from "typescript";
 
 const title = Roboto_Slab({ subsets: ['latin'] })
 
-const ProjectBox = ({ id, name, url, desc, stack }: ProjectBoxProps) => {
+const ProjectBox = ({ id, name, url, desc, stack, imgurl }: ProjectBoxProps) => {
   return (
     <div className='w-full h-full md:border-b-0 border-b-2 border-l-violet12'>
       <div className='w-full h-[65px] border-b-2 border-violet12 bg-violet7 slide-w'>
-        <h2 className='slide-t text-h2 font-bold italic slide-full text-violet1'>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
-        <h2 className='slide-t text-h2 font-bold italic slide-full text-violet1'>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
-        <h2 className='slide-t text-h2 font-bold italic slide-full text-violet1'>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
-        <h2 className='slide-t text-h2 font-bold italic slide-full text-violet1'>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
-        <h2 className='slide-t text-h2 font-bold italic slide-full text-violet1'>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
+        <h2 className={`slide-t text-h2 font-bold italic ${Number(id) % 2 === 0 ? "slide-full" : "slide-full-rev"} text-violet1`}>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
+        <h2 className={`slide-t text-h2 font-bold italic ${Number(id) % 2 === 0 ? "slide-full" : "slide-full-rev"} text-violet1`}>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
+        <h2 className={`slide-t text-h2 font-bold italic ${Number(id) % 2 === 0 ? "slide-full" : "slide-full-rev"} text-violet1`}>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
+        <h2 className={`slide-t text-h2 font-bold italic ${Number(id) % 2 === 0 ? "slide-full" : "slide-full-rev"} text-violet1`}>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
+        <h2 className={`slide-t text-h2 font-bold italic ${Number(id) % 2 === 0 ? "slide-full" : "slide-full-rev"} text-violet1`}>{`${name} • ${name} • ${name} • ${name} • ${name} • ${name} • ${name} • `}</h2>
       </div>
       <div className="w-full flex flex-col md:flex-row justify-between items-center md:border-b-2 border-b-0 border-violet12">
-        <Image src={`/assets/projThumbs/${id}.png`} alt={name} width={300} height={300} className="aspect-square w-full md:h-[100%] md:w-[40%] md:border-b-0 border-b-2 border-violet12 md:border-r-2"/>
+        <Image placeholder="blur" blurDataURL={imgurl} key={imgurl} src={imgurl!} alt={name} width={300} height={300} className="aspect-square w-full md:h-[100%] md:w-[40%] md:border-b-0 border-b-2 border-violet12 md:border-r-2"/>
         <div className=" w-full md:max-w-[50%] h-full p-5 md:p-0 md:pr-10 md:pb-5 flex flex-col">
             <h1 className={`${title.className} text-h1 text-violet11 font-medium`}>{name}</h1>
             <div className="flex gap-3">
