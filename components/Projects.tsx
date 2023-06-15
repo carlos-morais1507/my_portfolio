@@ -5,7 +5,7 @@ import { projects } from "@/constants"
 
 const Projects = () => {
   return (
-    <div id="Projects" className='w-full flex flex-col'>
+    <div id="Projects" className='w-full flex flex-col scroll-mt-[65px]'>
     <div className="w-full border-b-2 border-violet12 slide-w">
       <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>MY PROJECTS • MY PROJECTS • </h1>
       <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>MY PROJECTS • MY PROJECTS • </h1>
