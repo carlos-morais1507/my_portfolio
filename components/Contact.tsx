@@ -6,7 +6,7 @@ const title = Roboto_Slab({ subsets: ['latin'] })
 
 const Contact = () => {
   return (
-    <div className='w-full flex flex-col'>
+    <div id="Contact" className='w-full flex flex-col scroll-mt-[65px]'>
       <div className="w-full border-b-2 border-violet12 slide-w">
         <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>CONTACT • CONTACT • CONTACT • </h1>
         <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>CONTACT • CONTACT • CONTACT • </h1>
