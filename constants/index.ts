@@ -82,14 +82,14 @@ export const projects = [
     id: "1",
     name: "CarHub",
     url: "https://car-showcase-mocha.vercel.app/",
-    stack: ["typescript", "next", "tailwind"],
+    stack: ["typescript", "next", "tailwind", "lang__en"],
     desc: "Carhub is a project created in the NexJs13 course from JavaScriptMastery. In this project I learned how to use props and constants to create a more uniform and fluid application."
   },
   {
     id: "2",
     name: "PlantCare",
     url: "https://plantcare-vercel.vercel.app/",
-    stack: ["html5", "css", "javascript"],
+    stack: ["html5", "css", "javascript", "lang__pt"],
     desc: "PlantCare is a web application that I am developing with a team from my university class. The goal of the project is to spread quick and easy information about pest that attack certain plants."
   },
 ]
