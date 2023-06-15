@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import SkillsList from "./SkillsList";
 import Projects from "./Projects";
 import ProjectBox from "./ProjectBox";
+import Contact from "./Contact";
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   SkillsList,
   Projects,
   ProjectBox,
+  Contact,
 }

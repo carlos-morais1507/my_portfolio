@@ -13,7 +13,7 @@ const Projects = () => {
       <h1 className='text-titles slide-t slide-full text-violet11 font-bold'>MY PROJECTS • MY PROJECTS • </h1>
     </div>
 
-    <div className='border-b-2 border-l-violet12 w-full h-full min-h-[650px]'>
+    <div className='w-full h-full min-h-[650px]'>
       {projects.map((project) => (
         <ProjectBox 
           key={project.id}
