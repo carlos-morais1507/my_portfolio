@@ -83,7 +83,7 @@ export const projects = [
     name: "CarHub",
     url: "https://car-showcase-mocha.vercel.app/",
     stack: ["typescript", "next", "tailwind", "lang__en"],
-    desc: "Carhub is a project created in the NexJs13 course from JavaScriptMastery. In this project I learned how to use props and constants to create a more uniform and fluid application."
+    desc: "Carhub is a project created in the NexJs13 / Typescript course from JavaScriptMastery. In this project I learned how to use props and constants to create a more uniform and fluid application."
   },
   {
     id: "2",
@@ -91,5 +91,12 @@ export const projects = [
     url: "https://plantcare-vercel.vercel.app/",
     stack: ["html5", "css", "javascript", "lang__pt"],
     desc: "PlantCare is a web application that I am developing with a team from my university class. The goal of the project is to spread quick and easy information about pest that attack certain plants."
+  },
+  {
+    id: "3",
+    name: "Metaversus",
+    url: "https://metaversus-beta.vercel.app/",
+    stack: ["javascript", "next", "tailwind", "lang__en"],
+    desc: "Metaversus is a application created in the older NextJs13 course from JavaScriptMastery. It was my first project using NextJs and developing it I learned the basics of Tailwind and Framer Motion."
   },
 ]
