@@ -13,6 +13,10 @@ export const skillsList = [
   },
   {
     category: 1,
+    title: "typescript",
+  },
+  {
+    category: 1,
     title: "react",
   },
   {
@@ -70,5 +74,22 @@ export const skillsList = [
   {
     category: 3,
     title: "github",
+  },
+]
+
+export const projects = [
+  {
+    id: "1",
+    name: "CarHub",
+    url: "https://car-showcase-mocha.vercel.app/",
+    stack: ["typescript", "next", "tailwind"],
+    desc: "Carhub is a project created in the NexJs13 course from JavaScriptMastery. In this project I learned how to use props and constants to create a more uniform and fluid application."
+  },
+  {
+    id: "2",
+    name: "PlantCare",
+    url: "https://plantcare-vercel.vercel.app/",
+    stack: ["html5", "css", "javascript"],
+    desc: "PlantCare is a web application that I am developing with a team from my university class. The goal of the project is to spread quick and easy information about pest that attack certain plants."
   },
 ]

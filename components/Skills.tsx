@@ -1,6 +1,6 @@
 import React from 'react'
-import { Roboto_Slab } from "next/font/google"
 import SkillsList from './SkillsList'
+import { Roboto_Slab } from "next/font/google"
 
 const title = Roboto_Slab({ subsets: ['latin'] })
 

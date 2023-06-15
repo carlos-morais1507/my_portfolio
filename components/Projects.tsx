@@ -1,4 +1,7 @@
+"use client";
+
 import ProjectBox from "./ProjectBox"
+import { projects } from "@/constants"
 
 const Projects = () => {
   return (
@@ -11,11 +14,17 @@ const Projects = () => {
     </div>
 
     <div className='border-b-2 border-l-violet12 w-full h-full min-h-[650px]'>
-      <ProjectBox
-      name = "Daga Project"
-      url="/assets/ProjThumbs/1.jpeg"
-      stack= {["React", "NextJS", "TailwindCSS"]}
-      />
+      {projects.map((project) => (
+        <ProjectBox 
+          key={project.id}
+          id = {project.id}
+          name = {project.name}
+          url= {project.url}
+          imgurl = {`/assets/projThumbs/${project.id}.png`}
+          stack= {project.stack}
+          desc= {project.desc}
+        />
+      ))}
     </div>
 
     </div>
