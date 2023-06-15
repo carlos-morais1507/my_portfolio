@@ -18,7 +18,7 @@ const Hero = () => {
   }
 
   return (
-    <div className="w-full flex flex-col">
+    <div id='Hero' className="w-full flex flex-col">
       <div className='w-full md:h-[650px] h-full border-b-2 border-violet12 flex flex-col md:flex-row overflow-hidden'>
         <div className='w-full min-w-[50%] min-h-[50%] h-full md:border-r-2 border-b-2 md:border-b-0 border-violet12 flex flex-col items-center justify-center'>
           <div className='flex flex-col items-start justify-center p-5'>

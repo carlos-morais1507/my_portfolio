@@ -86,7 +86,7 @@ export const projects = [
     desc: "Carhub is a project created in the NexJs13 / Typescript course from JavaScriptMastery. In this project I learned how to use props and constants to create a more uniform and fluid application."
   },
   {
-    id: "2",
+    id: "998",
     name: "PlantCare",
     url: "https://plantcare-vercel.vercel.app/",
     stack: ["html5", "css", "javascript", "lang__pt"],

@@ -1,41 +1,43 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className='flex bg-violet1 text-violet12 h-[65px] border-b-2 border-violet12'>
+    <header className='flex bg-violet1 text-violet12 h-[65px] border-b-2 border-violet12 scroll-smooth fixed w-full z-50 '>
       <div className='w-full hidden md:flex justify-between items-center '>
-        <button className='text-h1 font-bold border-r-2 border-violet12 px-3
+        <Link scroll={false} href="#hero" className='text-h1 font-bold border-r-2 border-violet12 px-3
         hover:bg-violet9 hover:text-violet1'>
           CM DEV
-        </button>
-        <div className='text-btn font-medium'>
-          <button 
-          className='h-[65px] border-l-2 border-violet12 px-6 
+        </Link>
+        <div className='text-btn font-medium h-full flex items-center justify-center'>
+          <Link scroll={false}  href="#About"
+          className='h-[65px] border-l-2 border-violet12 px-6 flex items-center 
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
             About me
-          </button>
-          <button 
-          className='h-[65px] border-l-2 border-violet12 px-6
+          </Link>
+          <Link scroll={false} href="#Skills"
+          className='h-[65px] border-l-2 border-violet12 px-6 flex items-center
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
             My skills
-          </button>
-          <button 
-          className='h-[65px] border-l-2 border-violet12 px-6 
+          </Link>
+          <Link href={"#Projects"} 
+          className='h-[65px] border-l-2 border-violet12 px-6 flex items-center 
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
             My projects
-          </button>
-          <button 
-          className='h-[65px] border-l-2 border-violet12 px-6 
+          </Link>
+          <Link href={"#Contact"} 
+          className='h-[65px] border-l-2 border-violet12 px-6 flex items-center 
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
             Contact
-          </button>
+          </Link>
         </div>
       </div>
+
       <div className='h-full w-full flex md:hidden justify-between items-center'>
         <button className='h-full w-full flex justify-center items-center px-5
         hover:bg-violet4'>
