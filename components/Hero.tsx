@@ -16,7 +16,7 @@ const Hero = () => {
     sethidden(!hidden);
     console.log(hidden)
   }
-
+  
   return (
     <div id='Hero' className="w-full flex flex-col scroll-mt-[65px]">
       <div className='w-full md:h-[650px] h-full border-b-2 border-violet12 flex flex-col md:flex-row overflow-hidden'>
@@ -30,10 +30,10 @@ const Hero = () => {
               <button id='lang__menu' onClick={showmenu} className='relative z-10 bg-violet1 text-btn font-medium p-2.5 mt-2.5 border-2 border-violet12 rounded-lg
             hover:bg-violet9 hover:text-violet1'>Download my CV</button>
             <div className='absolute z-0 flex lang__btn gap-3 transition-all'>
-              <Link href="https://drive.google.com/file/d/1s5sRhVv7g-2tTAG0NrWXGO0pGgFktkfu/view?usp=drive_link" target='blank'>
+              <Link href="https://drive.google.com/file/d/1KaOdW9t15P__U2k2uPPld1hTanu9EqVf/view?usp=drive_link" target='blank'>
                 <div className='bg-lang__pt hover:bg-lang__pt-hover w-[40px] h-[40px] transition-all duration-200' />
               </Link>
-              <Link href="https://drive.google.com/file/d/1ff449MvOkbpO92Tr3Z34ZYzbDYM7j3CN/view?usp=drive_link" target='blank'>
+              <Link href="https://drive.google.com/file/d/1hj63WC9YmelLxY3rEOULTcYofBzbOAso/view?usp=drive_link" target='blank'>
                 <div className='bg-lang__en hover:bg-lang__en-hover w-[40px] h-[40px] transition-all duration-200' />
               </Link>
             </div>
