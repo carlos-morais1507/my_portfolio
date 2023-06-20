@@ -4,5 +4,7 @@
   "hero__sub3": "desenvolvedor web que você precisa",
   "hero__cta": "Baixar meu CV",
   "hero__lang-btn": "See site in english",
-  "hero__title": "MEU PORTFÓLIO"
+  "hero__title": "MEU PORTFÓLIO",
+  "about__title": "SOBRE MIM",
+  "about__text": "Sou um desenvolvedor front-end criativo e eficiente com habilidades como HTML, CSS, JavaScript, React, Next, Tailwind, e Firebase. Atualmente estou no meu segundo período do curso de Bacharelado em Sistemas de Informação da PUCMG e amo escrever no meu tempo livre. Eu sou do Rio de Janeiro e estou sempre buscando novas oportunidades e aprender e crescer profissionalmente."
 }

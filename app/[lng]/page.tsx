@@ -10,7 +10,7 @@ export default function Home({ params: { lng } }: HomeProps) {
   return (
     <main className="min-h-screen bg-violet1 text-violet12 text-text mt-[65px]">
       <Hero params={{ lng }} />
-      <About />
+      <About params={{ lng }} />
       <Skills />
       <Projects />
       <Contact />

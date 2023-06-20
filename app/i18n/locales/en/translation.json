@@ -4,5 +4,7 @@
   "hero__sub3": "web developer you need.",
   "hero__cta": "Download my CV",
   "hero__lang-btn": "Ver site em português",
-  "hero__title": "MY PORTFOLIO"
+  "hero__title": "MY PORTFOLIO",
+  "about__title": "ABOUT ME",
+  "about__text": "I am an talented and creative front-end developer with skills in HTML, CSS, JavaScript, React, Next, Tailwind, and Firebase. Currently, I am in my second year of a Bachelor's degree in Information Systems at PUCMG and enjoy writing in my free time. I am from Rio de Janeiro and always looking for new opportunities for learning and professional growth."
 }
