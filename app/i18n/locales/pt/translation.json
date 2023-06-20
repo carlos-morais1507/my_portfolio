@@ -13,5 +13,9 @@
   "projects__title": "MEUS PROJETOS",
   "projects__deployBtn": "Visitar deploy",
   "contacts__title": "CONTATO",
-  "contacts__text": "Fico extremamente grato em saber que você chegou até aqui! Se você desejar me encontrar, minhas redes sociais estão disponíveis bem aqui. Espero que você tenha gostado do que viu aqui. Aguardo sua mensagem!"
+  "contacts__text": "Fico extremamente grato em saber que você chegou até aqui! Se você desejar me encontrar, minhas redes sociais estão disponíveis bem aqui. Espero que você tenha gostado do que viu aqui. Aguardo sua mensagem!",
+  "header__about": "Sobre mim",
+  "header__skills": "Habilidades",
+  "header__projects": "Meus Projetos",
+  "header__contact": "Contato"
 }

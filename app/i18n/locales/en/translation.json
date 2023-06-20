@@ -13,5 +13,9 @@
   "projects__title": "MY PROJECTS",
   "projects__deployBtn": "Go to deploy",
   "contacts__title": "CONTACT",
-  "contacts__text": "Thank you very much for seeing my hole portfolio! If you want to reach me, my social media links are available right here. I hope you liked what you saw here and I am waiting your message!"
+  "contacts__text": "Thank you very much for seeing my hole portfolio! If you want to reach me, my social media links are available right here. I hope you liked what you saw here and I am waiting your message!",
+  "header__about": "About me",
+  "header__skills": "My Skills",
+  "header__projects": "My Projects",
+  "header__contact": "Contact"
 }

@@ -29,25 +29,25 @@ export default async function Header({ params: { lng } }: { params: { lng: strin
           className='h-[65px] border-l-2 border-violet12 px-6 flex items-center 
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
-            About me
+            {t('header__about')}
           </Link>
           <Link scroll={false} href="#Skills" onClick={handleScroll}
           className='h-[65px] border-l-2 border-violet12 px-6 flex items-center
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
-            My skills
+            {t('header__skills')}
           </Link>
           <Link href={"#Projects"} onClick={handleScroll}
           className='h-[65px] border-l-2 border-violet12 px-6 flex items-center 
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
-            My projects
+            {t('header__projects')}
           </Link>
           <Link href={"#Contact"} onClick={handleScroll} 
           className='h-[65px] border-l-2 border-violet12 px-6 flex items-center 
           hover:bg-violet9 hover:text-violet1 
           active:bg-violet9 active:text-violet1'>
-            Contact
+            {t('header__contact')}
           </Link>
         </div>
       </div>
