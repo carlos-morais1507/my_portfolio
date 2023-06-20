@@ -11,5 +11,7 @@
   "skills__text": "This is my set of skills. I am investing most of my time in learning languages and libraries that leans to web development, like HTML5, CSS3, Javascript, React, Next and Vue. but I like to change sometimes too! I studied COBOL, C/C+ and Python due to their usability in the market. I worked as a visual identity designer for a while, so I have knowledge of some design principles and I know how to use Adobe Photoshop and Illustrator too!",
   "skills__other": "Other skills",
   "projects__title": "MY PROJECTS",
-  "projects__deployBtn": "Go to deploy"
+  "projects__deployBtn": "Go to deploy",
+  "contacts__title": "CONTACT",
+  "contacts__text": "Thank you very much for seeing my hole portfolio! If you want to reach me, my social media links are available right here. I hope you liked what you saw here and I am waiting your message!"
 }

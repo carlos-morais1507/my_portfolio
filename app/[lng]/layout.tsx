@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang={lng} dir={dir(lng)}>
       <body className={text.className}>
-        <Header />
+        <Header params={{ lng }} />
         {children}
       </body>
     </html>

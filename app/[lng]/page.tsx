@@ -14,7 +14,7 @@ export default function Home({ params: { lng } }: HomeProps) {
       <About params={{ lng }} />
       <Skills params={{ lng }} />
       <Projects params={{ lng }} />
-      <Contact />
+      <Contact params={{ lng }} />
     </main>
   )
 }

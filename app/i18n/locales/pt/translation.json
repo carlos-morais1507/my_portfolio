@@ -11,5 +11,7 @@
   "skills__text": "Esse é o meu conjunto de habilidades. Eu estou investindo a maioria do meu tempo em aprender linguagens e bibliotecas que são usadas no desenvolvimento web como HTML5, CSS3, Javascript, React, Next e Vue. Mas eu gosto de varias um pouco também! Eu estudei COBOL, C/C++ e Python por conta da sua usabilidade no mercado de trabalho. Eu também trabalhei como designer de identidade visual por um tempo, então eu tenho conhecimento em Adobe Photoshop e Illustrator também!",
   "skills__other": "Outras habilidades",
   "projects__title": "MEUS PROJETOS",
-  "projects__deployBtn": "Visitar deploy"
+  "projects__deployBtn": "Visitar deploy",
+  "contacts__title": "CONTATO",
+  "contacts__text": "Fico extremamente grato em saber que você chegou até aqui! Se você desejar me encontrar, minhas redes sociais estão disponíveis bem aqui. Espero que você tenha gostado do que viu aqui. Aguardo sua mensagem!"
 }

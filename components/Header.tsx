@@ -3,8 +3,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslation } from '@/app/i18n';
 
-const Header = () => {
+export default async function Header({ params: { lng } }: { params: { lng: string } }) {
+  const { t } = await useTranslation(lng);
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -78,5 +80,3 @@ const Header = () => {
     </header>
   )
 }
-
-export default Header
