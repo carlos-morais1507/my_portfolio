@@ -6,5 +6,8 @@
   "hero__lang-btn": "See site in english",
   "hero__title": "MEU PORTFÓLIO",
   "about__title": "SOBRE MIM",
-  "about__text": "Sou um desenvolvedor front-end criativo e eficiente com habilidades como HTML, CSS, JavaScript, React, Next, Tailwind, e Firebase. Atualmente estou no meu segundo período do curso de Bacharelado em Sistemas de Informação da PUCMG e amo escrever no meu tempo livre. Eu sou do Rio de Janeiro e estou sempre buscando novas oportunidades e aprender e crescer profissionalmente."
+  "about__text": "Sou um desenvolvedor front-end criativo e eficiente com habilidades como HTML, CSS, JavaScript, React, Next, Tailwind, e Firebase. Atualmente estou no meu segundo período do curso de Bacharelado em Sistemas de Informação da PUCMG e amo escrever no meu tempo livre. Eu sou do Rio de Janeiro e estou sempre buscando novas oportunidades e aprender e crescer profissionalmente.",
+  "skills__title": "HABILIDADES",
+  "skills__text": "Esse é o meu conjunto de habilidades. Eu estou investindo a maioria do meu tempo em aprender linguagens e bibliotecas que são usadas no desenvolvimento web como HTML5, CSS3, Javascript, React, Next e Vue. Mas eu gosto de varias um pouco também! Eu estudei COBOL, C/C++ e Python por conta da sua usabilidade no mercado de trabalho. Eu também trabalhei como designer de identidade visual por um tempo, então eu tenho conhecimento em Adobe Photoshop e Illustrator também!",
+  "skills__other": "Outras habilidades"
 }

@@ -1,7 +1,10 @@
 import Image from "next/image"
 import { skillsList } from "@/constants"
+import { useTranslation } from '@/app/i18n';
 
-const SkillsList = () => {
+export default async function Skills({ lng }: { lng: string }) {
+  const { t } = await useTranslation(lng);
+
   return (
     <div className='w-full h-full'>
       <div className="w-full bg-violet7 border-b-2 border-violet12 slide-w">
@@ -167,10 +170,10 @@ const SkillsList = () => {
       </div>
 
       <div className="w-full bg-violet7 border-b-2 border-violet12 slide-w">
-        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>Other skills • Other skills • Other skills • </h1>
-        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>Other skills • Other skills • Other skills • </h1>
-        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>Other skills • Other skills • Other skills • </h1>
-        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>Other skills • Other skills • Other skills • </h1>
+        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>{t('skills__other')} • {t('skills__other')} • {t('skills__other')} • </h1>
+        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>{t('skills__other')} • {t('skills__other')} • {t('skills__other')} • </h1>
+        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>{t('skills__other')} • {t('skills__other')} • {t('skills__other')} • </h1>
+        <h1 className='text-h3 md:text-h2 slide-t slide-full text-violet1 font-bold italic'>{t('skills__other')} • {t('skills__other')} • {t('skills__other')} • </h1>
       </div>
       <div className="w-full h-[150px] slide-w flex">
         <div className="h-full flex items-center gap-7 slide-t slide-nor">
@@ -269,5 +272,3 @@ const SkillsList = () => {
     
   )
 }
-
-export default SkillsList
