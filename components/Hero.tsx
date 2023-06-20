@@ -38,7 +38,6 @@ export default async function Hero({ params: { lng } }: { params: { lng: string 
                   <div className='bg-lang__en hover:bg-lang__en-hover w-[40px] h-[40px] transition-all duration-200' />
                 </Link>
               </div>
-              
             </div>
             <Link href={lng === "en" ? "/pt" : "/en"} className='italic text-btn mt-3' >{t('hero__lang-btn')}</Link>
           </div>
