@@ -100,6 +100,14 @@ export const projects = [
     url: "https://metaversus-beta.vercel.app/",
     stack: ["javascript", "next", "tailwind", "lang__en"],
     desc__en: "Metaversus is a application created in the older NextJs13 course from JavaScriptMastery. It was my first project using NextJs and developing it I learned the basics of Tailwind and Framer Motion.",
-    desc__pt: "Carhub é um projeto criado em outro curso de NextJs13 da JavaScriptMastery. Ele é o meu primeiro projeto usando NextJs e desenvolvendo ele eu aprendi os conceitos básicos de NextJs, Tailwind e Framer Motion."
+    desc__pt: "A Metaversus é uma aplicação desenvolvida em uma versão mais antiga do curso NextJs13 do JavaScriptMastery. Foi o meu primeiro projeto usando NextJs e TailwindCss e nele eu também aprendi os fundamentos básicos do Framer Motion."
+  },
+  {
+    id: "4",
+    name: "Vroom",
+    url: "https://vroom-app.vercel.app/",
+    stack: ["typescript", "next", "tailwind", "lang__pt"],
+    desc__en: "Vroom is a car rental app project that I made to practice my Typescript and NextJS13 skills.",
+    desc__pt: "Vroom é uma aplicação de aluguel de carros que eu desenvolvi para praticar minhas habilidades em Typescript e NextJS13"
   },
 ]
